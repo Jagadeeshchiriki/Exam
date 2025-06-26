@@ -3,10 +3,11 @@
 numbers = [int(i) for i in [ x for x in input("Enter numbers separated by space: ").split() if x.isdigit()]]
 
 if len(numbers) < 2:
-    print("Error: need at least two numbers.")
+    print("need at least two numbers.")
 else:
     second=0
-    first =0      
+    first = 0
+   
 
     for n in numbers:
         if first is None or n > first:
